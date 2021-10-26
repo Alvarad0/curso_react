@@ -1,3 +1,6 @@
+//Registrar ServiceWorker
+if(navigator.serviceWorker) navigator.serviceWorker.register("./sw.js")
+
 const domContainer = document.getElementById("root")
 const Contador = () => {
     const [numero, setNumero] = React.useState(0)
